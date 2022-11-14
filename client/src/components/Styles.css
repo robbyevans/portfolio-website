@@ -1,0 +1,29 @@
+.app-container{
+  display: fex;
+  flex-wrap: wrap;
+}
+.Navbar{
+  width: 20%;
+  background-color: dodgerblue;
+  height: 70vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+
+}
+
+.navlink{
+  list-style: none;
+  padding: 5px;
+  margin: 5px;
+  text-decoration: none;
+  margin-top: 50px;
+  background-color: #fff;
+  color: #000;
+}
+.Navbar nav{
+  margin-bottom: 20px;
+}
+.navlink:active{
+  background-color: grey;
+}
